@@ -6,7 +6,7 @@
 
 .general-container {
     width: 80%;
-    margin: 30px 10%;
+    margin: 30px 10% 60px 10%;
 }
 
 .clearfix::after {
@@ -37,27 +37,84 @@
     background-color: white;
 }
 
-.sconto {
+.card-promo {
     position: absolute;
     font-weight: bold;
     color: white;
-    bottom: 30px;
+    bottom: 40px;
     left: 0;
     padding: 5px;
+    margin-bottom: 30px;
+}
+.sconto {
     background-color: red;
+    padding: 5px;
 }
 
 .sostieni {
-    position: absolute;
-    font-weight: bold;
-    color: white;
-    bottom: 30px;
-    left: 0;
+    background-color: green;
+    margin-left: 10px;
     padding: 5px;
-    background-color: darkgreen;
-    margin-left: 50px;
 }
 
 #sostieni2 {
     left: 0;
+    margin-left: 0;
+}
+
+.marca {
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}
+
+.tipo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.prezzo-sconto {
+    font-weight: bold;
+    color: red;
+}
+
+.prezzo-iniziale {
+    color: grey;
+    text-decoration: line-through;
+    padding-left: 5px;
+}
+
+#immagine1b, #immagine2b, #immagine3b, #immagine4b, #immagine5b, #immagine6b {
+    display: none;
+    width: calc(100% - 20px);
+    height: 550px;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenitore-immagini:hover #immagine1b{
+    display: inline-block;
+}
+
+.contenitore-immagini:hover #immagine2b{
+    display: inline-block;
+}
+
+.contenitore-immagini:hover #immagine3b{
+    display: inline-block;
+}
+
+.contenitore-immagini:hover #immagine4b{
+    display: inline-block;
+}
+
+.contenitore-immagini:hover #immagine5b{
+    display: inline-block;
+}
+
+.contenitore-immagini:hover #immagine6b{
+    display: inline-block;
 }
